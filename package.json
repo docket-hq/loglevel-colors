@@ -1,0 +1,29 @@
+{
+  "name": "loglevel-colors",
+  "version": "0.0.0",
+  "description": "A pre-configured instance of loglevel with colors and prefixes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnbarlow/loglevel-colors.git"
+  },
+  "keywords": [
+    "log",
+    "color",
+    "level"
+  ],
+  "author": "John Barlow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnbarlow/loglevel-colors/issues"
+  },
+  "homepage": "https://github.com/jnbarlow/loglevel-colors#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "loglevel": "^1.6.8",
+    "loglevel-plugin-prefix": "^0.8.4"
+  }
+}
