@@ -8,22 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/docket-hq/loglevel-colors.git"
+    "url": "git+https://github.com/jnbarlow/loglevel-colors.git"
   },
   "keywords": [
     "log",
     "color",
     "level"
   ],
-  "author": "Docket <help@dockethq.com> (https://www.dockethq.com/)",
+  "author": "John Barlow <jnbarlow@gmail.com>",
   "contributors": [
     "John Barlow <jnbarlow@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/docket-hq/loglevel-colors/issues"
+    "url": "https://github.com/jnbarlow/loglevel-colors/issues"
   },
-  "homepage": "https://github.com/docket-hq/loglevel-colors#readme",
+  "homepage": "https://github.com/jnbarlow/loglevel-colors#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "loglevel": "^1.6.8",
