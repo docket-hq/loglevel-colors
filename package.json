@@ -1,6 +1,6 @@
 {
   "name": "loglevel-colors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A pre-configured instance of loglevel with colors and prefixes.",
   "main": "index.js",
   "scripts": {
