@@ -2,10 +2,10 @@
 A pre-connfigured instance of loglevel with colors and prefixes
 
 # Usage
-The default loglevel is `DEBUG`, but this can be configured either by setting the 
+The default loglevel is `DEBUG`, but this can be configured either by setting the
 env var `LOGLEVEL`, or passing the log level in as a second argument.
 
-The possible log levels are: 
+The possible log levels are:
 
 - TRACE
 - DEBUG
@@ -13,9 +13,14 @@ The possible log levels are:
 - WARN
 - ERROR
 
+## Installation
+```
+npm install loglevel-colors
+```
+
 ## defaults
 ```javascript
-const log = require('./index')('Sample');
+const log = require('loglevel-colors')('Sample');
 
 log.trace(`I'm a trace message!`);
 log.debug(`I'm a debug message!`);
@@ -34,7 +39,7 @@ log.error(`I'm a error message!`);
 
 ## Setting WARN as the default level
 ```javascript
-const log = require('./index')('Sample', 'WARN');
+const log = require('loglevel-colors')('Sample', 'WARN');
 
 log.trace(`I'm a trace message!`);
 log.debug(`I'm a debug message!`);
